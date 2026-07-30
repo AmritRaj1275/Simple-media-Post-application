@@ -54,3 +54,33 @@ body,
   border-radius: 4px;
   cursor: pointer;
 }
+
+.feed-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  height: 100%;
+  width: 100%;
+  background-color: #f0f2f5;
+}
+
+.post {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.post h2 {
+  margin-bottom: 10px;
+}
